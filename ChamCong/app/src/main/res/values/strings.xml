@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ChamCong</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="user_name">Tài Khoản</string>
+    <string name="pass_word">Mật Khẩu</string>
+    <string name="register">ghi nhớ</string>
+    <string name="user_l">Danh Sach Nhan Vien</string>
+    <string-array name="user_list">
+        <item> Nguyen van Cuong</item>
+        <item> Hoang Van Hai</item>
+        <item> Lam Van Tuong</item>
+        <item> Lam Thi Ly</item>
+        <item> Ly Van Bang</item>
+    </string-array>
+</resources>

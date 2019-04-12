@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center_horizontal"
+
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+
+
+
+   >
+<ProgressBar
+    android:id="@+id/login_progress"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:visibility="gone"
+    />
+<TextView
+    android:id="@+id/tvLogin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:hint="@string/login"
+    android:textSize="24sp"
+    />
+<TextView
+    android:id="@+id/tvUser"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/user_name"
+    />
+<EditText
+    android:id="@+id/editUser"
+    android:hint="@string/user_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    />
+<TextView
+    android:id="@+id/tvPassWord"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:hint="@string/pass_word"/>
+<EditText
+    android:id="@+id/editPAssWord"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/pass_word"
+    android:inputType="textPassword"
+
+    />
+<Button
+    android:id="@+id/btnOK"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:paddingTop="10dp"
+    android:hint="@string/login"
+
+
+    >
+
+</Button>
+
+
+
+
+</LinearLayout>
